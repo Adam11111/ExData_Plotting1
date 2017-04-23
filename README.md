@@ -6,3 +6,5 @@ These programs produce plots from data in the Electric Power Consumption dataset
 [Electric Power Consumption](https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
 
 Copy the file "household_power_consumption.txt" into your working directory and run the script below if you would like to reproduce the plots. It is assumed your OS has already unzipped the file (mine did).
+
+Note: The background of the PNG files was set to transparent to match the assignment images.
