@@ -33,8 +33,8 @@ datetime <- strptime(datetime, "%d/%m/%Y %H:%M:%S")
 powerCons <- cbind(powerCons, datetime)
 
 
-# Create Plot1.png file with Historgram
-png("./Plot1.png", width = 480, height = 480, bg = "transparent")
+# Create plot1.png file with Historgram
+png("./plot1.png", width = 480, height = 480, bg = "transparent")
 par(mfrow = c(1,1))
 hist(powerCons$Global_active_power,
      xlab = "Global Active Power (kilowatts)",

@@ -33,8 +33,8 @@ datetime <- strptime(datetime, "%d/%m/%Y %H:%M:%S")
 powerCons <- cbind(powerCons, datetime)
 
 
-# Create Plot4.png file with 4 Panel Plot
-png("./Plot4.png", width = 480, height = 480, bg = "transparent")
+# Create plot4.png file with 4 Panel Plot
+png("./plot4.png", width = 480, height = 480, bg = "transparent")
 par(mfcol = c(2,2))
 with(powerCons,{
     plot(datetime,

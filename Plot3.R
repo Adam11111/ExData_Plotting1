@@ -33,8 +33,8 @@ datetime <- strptime(datetime, "%d/%m/%Y %H:%M:%S")
 powerCons <- cbind(powerCons, datetime)
 
 
-# Create Plot3.png file with 3 Line Graph and Legend
-png("./Plot3.png", width = 480, height = 480, bg = "transparent")
+# Create plot3.png file with 3 Line Graph and Legend
+png("./plot3.png", width = 480, height = 480, bg = "transparent")
 par(mfrow = c(1,1))
 with(powerCons,{
     plot(datetime,

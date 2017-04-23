@@ -33,8 +33,8 @@ datetime <- strptime(datetime, "%d/%m/%Y %H:%M:%S")
 powerCons <- cbind(powerCons, datetime)
 
 
-# Create Plot2.png file with Line Graph
-png("./Plot2.png", width = 480, height = 480, bg = "transparent")
+# Create plot2.png file with Line Graph
+png("./plot2.png", width = 480, height = 480, bg = "transparent")
 par(mfrow = c(1,1))
 with(powerCons,{
     plot(datetime,
